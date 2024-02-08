@@ -1,0 +1,44 @@
+{
+    "THV": {
+      "name": "THV",
+      "followers": 25000000,
+      "following": 6,
+      "posts": [
+        {
+          "image": "INSTAGRAM WEBSITE/photo.jpg",
+          "likes": 2000000,
+          "comments": 100000
+        }
+      ]
+    },
+
+
+    "j.m": {
+      "name": "j.m",
+      "followers": 7500000,
+      "following": 7,
+      "posts": [
+        {
+          "image": "INSTAGRAM WEBSITE/photo.jpg",
+          "likes": 3000000,
+          "comments": 4190
+        }
+      ]
+    },
+
+    "jungkook": {
+        "name": "jungkook",
+        "followers": 90000000,
+        "following": 6,
+        "posts": [
+          {
+            "image": "INSTAGRAM WEBSITE/photo.jpg",
+            "likes": 2900000,
+            "comments": 100090
+          }
+        ]
+      }
+
+  }
+  
+
