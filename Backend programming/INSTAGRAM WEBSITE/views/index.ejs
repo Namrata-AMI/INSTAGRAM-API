@@ -15,7 +15,9 @@
         <h5 class="content"> content: <%= post.content %> </h5>
         <img src="<%= post.image %>" alt="some random image" class="image">
         <a href="https://localhost:8080/posts/<%= post.id %>"> Edit</a>
-        <a href=""> Delete</a>
+        <form method="post" action="posts/<%=post.id%>?_method=DELETE">
+            <button>Delete</button>
+        </form>
         
     </div>
     
