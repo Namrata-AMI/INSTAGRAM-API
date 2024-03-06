@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>blaclcoffer</title>
+</head>
+<body>
+    
+    <h2> Sentimental Analysis</h2>
+<form method="get" action="/articles/<%=articleInfo._id%>">
+    <ul>
+        <li><%= articleInfo.URL_ID %></li>
+        <li id="url"> <%= articleInfo.URL %></li>
+        <li> <%= articleInfo.URL.innerHTML %></li>
+    </ul>
+</form>
+  
+<script src="../init/content.js">
+
+</script>
+</body>
+</html>

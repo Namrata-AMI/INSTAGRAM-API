@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>blackcoffer</title>
+</head>
+<body>
+
+    <h3> URL </h3>
+    
+    <div>
+       <% for(article of allArticle){ %>
+        <div style="border:1px solid black; padding:10px; border-radius:1rem; background-color:azure">
+               <p><%= article.URL_ID %> </p>
+             <a href=" <%= article.URL %> "> <%= article.URL %> </a>
+             <br><br>
+             <form method="get" action="/articles/<%= article._id %>">
+                <button>sentimental analysis</button>
+             </form>
+        </div>
+             <br><br>
+      <% }%>
+       
+       </div>
+
+</body>
+</html>
