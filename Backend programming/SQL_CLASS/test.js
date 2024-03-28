@@ -1,3 +1,5 @@
+
+
 const { faker } = require("@faker-js/faker");
 const mysql= require("mysql2");
 const express = require("express");
@@ -16,7 +18,7 @@ const connection = mysql.createConnection({
     host:"localhost",
     user:"root",
     database:"delta_app",
-    password:"NTAMJV18115",
+    password:"*******",
 });
 
 let getRandomUser = () =>{
@@ -158,7 +160,7 @@ app.delete("/user/:id",(req,res)=>{
                 res.send("wrond password");
             }
             else{
-                let q2 = `DELETE * FROM user WHERE id = '${id}'`;
+                let q2 = `DELETE FROM user WHERE id = '${id}'`;
                     connection.query(q2,(err,result)=>{
                         if(err) throw err;
                         console.log(result);

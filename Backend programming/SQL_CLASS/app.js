@@ -1,8 +1,4 @@
-
-
-
-//by ta //
-
+// ta//
 
 const express = require("express");
 const app = express();
@@ -12,7 +8,7 @@ const connection =  mysql.createConnection({
     host: "localhost",
     user: "root",
     database: "delta_app",
-    password:"NTAMJV18115",
+    password:"*****",
       });
 
 
